@@ -1,0 +1,36 @@
+**/build/*
+**/Log/*
+**/devel/*
+**/PCD/*
+**/.cache/*
+result/
+utils/test_parallel.py
+environment/.cache/*
+logs/
+__pycache__
+wandb
+
+log.txt
+draw.py
+*log*.json
+*.log
+
+*debug*
+utils/
+scripts/cpp/log
+scripts/cpp/trajlo
+scripts/log
+# test_parallel.py
+# single_run.py
+# ape.py
+# app.py
+log_est_traj.txt
+
+Environment/app/main.cpp
+scripts/cpp/thirdparty
+7950x_compute_best_result.py
+.clangd
+scripts/compute_result.py
+scripts/segmenting_bags.py
+scripts/train.sh
+scripts/cpp

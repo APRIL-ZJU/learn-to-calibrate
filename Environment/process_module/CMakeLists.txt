@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.16)
+project(process_bag)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native -ffast-math")
+
+find_package(yaml-cpp REQUIRED)
+find_package(Ceres REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(rosbag REQUIRED)
+find_package(Sophus REQUIRED)
+include_directories(include ${CERES_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIRS} ${rosbag_INCLUDE_DIRS} ${SOPHUS_INCLUDE_DIRS})
+message(WARNING "sophus include dirs: ${SOPHUS_INCLUDE_DIRS}")
+message(WARNING "${CERES_INCLUDE_DIRS}")
+message(WARNING "${CERES_LIBRARIES}")
+add_executable(${PROJECT_NAME} process_bag.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE yaml-cpp ${rosbag_LIBRARIES} ${CERES_LIBRARIES})
