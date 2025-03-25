@@ -1,6 +1,8 @@
 # L2Calib
 
-Official code of $SE(3)$-Manifold Reinforcement Learning for Robust Extrinsic Calibration with Degenerate Motion Resilience
+Official code of $SE(3)$-Manifold Reinforcement Learning for Robust Extrinsic Calibration with Degenerate Motion Resilience.
+
+L2Calib (Learn-To-Calibrate) is a reinforcement learning-based extrinsic calibration method that currently supports LiDAR-IMU extrinsic calibration, achieving comparable or even better performance than traditional calibration approaches.
 
 ## Quick Start
 
