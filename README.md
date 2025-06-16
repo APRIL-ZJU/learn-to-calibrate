@@ -1,4 +1,6 @@
 # L2Calib
+[update] 🎉🎉🎉 Accepted by IROS 2025!
+
 
 Official code of $SE(3)$-Manifold Reinforcement Learning for Robust Extrinsic Calibration with Degenerate Motion Resilience.
 
