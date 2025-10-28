@@ -41,8 +41,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <basalt/spline/spline_common.h>
 #include <basalt/utils/assert.h>
 #include <basalt/utils/sophus_utils.hpp>
+#include <basalt/utils/eigen_utils.hpp>
 
-#include <Eigen/Dense>
+#include <Eigen/Eigen>
 
 #include <array>
 

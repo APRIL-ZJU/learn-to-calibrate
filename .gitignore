@@ -3,6 +3,9 @@
 **/devel/*
 **/PCD/*
 **/.cache/*
+.vscode/    
+data/
+log/
 result/
 utils/test_parallel.py
 environment/.cache/*
@@ -16,7 +19,6 @@ draw.py
 *.log
 
 *debug*
-utils/
 scripts/cpp/log
 scripts/cpp/trajlo
 scripts/log

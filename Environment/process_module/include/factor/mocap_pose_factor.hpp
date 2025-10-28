@@ -6,7 +6,7 @@
 #include <ceres/ceres.h>
 #include <ceres/rotation.h>
 #include <Eigen/Core>
-#include <utils/imu_data.h>
+#include <imu_data.h>
 #include <sophus/so3.hpp>
 
 namespace estimator {

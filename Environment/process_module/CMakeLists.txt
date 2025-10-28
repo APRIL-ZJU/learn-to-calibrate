@@ -8,7 +8,13 @@ find_package(yaml-cpp REQUIRED)
 find_package(Ceres REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(rosbag REQUIRED)
-find_package(Sophus REQUIRED)
+
+include_directories(
+    thirdparty/Sophus-1.22.10
+    thirdparty/ceres-solver-1.14.0
+    utils
+)
+# find_package(Sophus REQUIRED)
 include_directories(include ${CERES_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIRS} ${rosbag_INCLUDE_DIRS} ${SOPHUS_INCLUDE_DIRS})
 message(WARNING "sophus include dirs: ${SOPHUS_INCLUDE_DIRS}")
 message(WARNING "${CERES_INCLUDE_DIRS}")
